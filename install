@@ -15,9 +15,9 @@ apt-get install libssh2-1-dev libssh2-php
 php -m |grep ssh2
 service apache2 restart
 cd /var/www/html
-wget 144.217.105.145/painel30/painelssh.zip
+wget http://sshvipbrasil.com.br/wp-content/uploads/2017/painel30/painelsshnovo.zip
 apt-get install unzip
-unzip painelssh.zip
-rm painelssh.zip index.html
+unzip painelsshnovo.zip
+rm painelsshnovo.zip index.html
 clear
 echo -e "\033[1;31mCOMPLETADO COM SUCESSO.\033[0m"
