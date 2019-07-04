@@ -1,0 +1,4 @@
+#!/bin/bash
+macchanger -r eth0
+/etc/init.d/networking restart
+echo -e ####Pode Mandar Bala#######
