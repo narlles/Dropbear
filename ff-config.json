@@ -42,8 +42,8 @@
   ],
   "defaultScribes": [
     [
-      "StdoutSK",
-      "stdout"
+      "FileSK",
+      "logs/node-core.log"
     ]
   ],
   "hasEKG": 12788,
